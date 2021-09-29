@@ -1,5 +1,8 @@
 # Package @subnet-wasm
-A wasm package with Rust utility functions based on `wasm-pack-template` and published to [npm](https://www.npmjs.com/package/@subnetter/subnet-wasm). Designed to be used by web apps. The library currently provides the dalek x25519 cryptolib to javascript apps.
+A wasm npm package with Rust utility functions based on `wasm-pack-template` and published to [npm](https://www.npmjs.com/package/@subnetter/subnet-wasm). Designed to be used by web apps. 
+
+The library currently provides the [dalek x25519](https://github.com/dalek-cryptography/x25519-dalek) library to javascript apps.
+It is used in [cmail](https://cmail.wtf) for end-to-end messages encryption.
 
 ## Publishing
 
